@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className={`morning ${isMorning ? 'morning' : 'night'}`}>
-      <h1>Day time = {isMorning ? 'Morning' : 'Night'} <button onClick={() => setMorning(!isMorning)}>change day</button></h1>
+      <h1>Have a good {isMorning ? 'Morning' : 'Night'} <button onClick={() => setMorning(!isMorning)}>change day</button></h1>
 
       <Counter counter={count} />
       <button onClick={()=> setCount(count+1)}>Increment</button>
